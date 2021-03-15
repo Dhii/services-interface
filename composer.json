@@ -21,12 +21,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Me\\Library\\": "src"
+      "Dhii\\Services\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Me\\Library\\Test\\Func\\": "tests/functional"
+      "Dhii\\Services\\Test\\Func\\": "tests/functional"
     }
   },
   "extra": {
