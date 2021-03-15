@@ -35,7 +35,7 @@ interface ServiceInterface
      *
      * @return mixed The created service value.
      *
-     * @phpcsSuppress SlevomatCodingStandard.TypeHints.ReturnTypeHint
+     * @phpcsSuppress SlevomatCodingStandard.TypeHints.ReturnTypeHint.MissingNativeTypeHint
      */
     public function __invoke(ContainerInterface $c);
 }
