@@ -34,8 +34,6 @@ interface ServiceInterface
      * @param ContainerInterface $c The container to use to resolve dependencies.
      *
      * @return mixed The created service value.
-     *
-     * @phpcsSuppress SlevomatCodingStandard.TypeHints.ReturnTypeHint.MissingNativeTypeHint
      */
     public function __invoke(ContainerInterface $c);
 }

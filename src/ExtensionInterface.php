@@ -15,8 +15,6 @@ interface ExtensionInterface extends ServiceInterface
      * @inheritDoc
      *
      * @param mixed|null $prev The servie value to extend.
-     *
-     * @phpcsSuppress SlevomatCodingStandard.TypeHints.ReturnTypeHint.MissingNativeTypeHint
      */
     public function __invoke(ContainerInterface $c, $prev = null);
 }
