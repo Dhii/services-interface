@@ -1,6 +1,6 @@
 {
-  "name": "dhii/php-project",
-  "description": "A PHP starter to ease project creation",
+  "name": "dhii/services-interface",
+  "description": "Interfaces for services compatible with Service Provider spec",
   "minimum-stability": "dev",
   "license": "MIT",
   "authors": [
