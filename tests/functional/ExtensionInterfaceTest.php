@@ -2,11 +2,12 @@
 
 namespace Dhii\Services\Test\Func;
 
+use Dhii\Services\ServiceInterface;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
-use Dhii\Services\ServiceInterface as Subject;
+use Dhii\Services\ExtensionInterface as Subject;
 
-class ServiceInterfaceTest extends TestCase
+class ExtensionInterfaceTest extends TestCase
 {
     /**
      * Creates an instance of the test subject.
@@ -28,6 +29,7 @@ class ServiceInterfaceTest extends TestCase
     {
         $subject = $this->createSubject();
         $this->assertInstanceOf(Subject::class, $subject);
+        $this->assertInstanceOf(ServiceInterface::class, $subject);
         $this->assertIsCallable($subject);
     }
 }
