@@ -1,4 +1,8 @@
 # Dhii - Services Interface
+[![Continuous Integration](https://github.com/Dhii/services-interface/actions/workflows/continuous-integration.yml/badge.svg)](https://github.com/Dhii/services-interface/actions/workflows/continuous-integration.yml)
+[![Latest Stable Version](https://poser.pugx.org/dhii/services-interface/v)](//packagist.org/packages/dhii/services-interface)
+[![Latest Unstable Version](https://poser.pugx.org/dhii/services-interface/v/unstable)](//packagist.org/packages/dhii/services-interface)
+
 Interfaces for services compatible with [Service Provider][] spec.
 
 ## Details
